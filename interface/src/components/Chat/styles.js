@@ -15,7 +15,7 @@ export const Content = styled.div`
     width: 50rem;
     height: 70%;
     border:1px solid gray;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px 20px;
     overflow: auto;
 
@@ -55,6 +55,7 @@ export const Text = styled.p`
     p{
         max-width: 70%;
         border: 1px solid gray;
+        background-color: lightslategray;
         border-radius: 20px;
         display: inline-block;
         padding: 10px;
